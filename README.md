@@ -9,14 +9,22 @@
 ## Установка
 
 - склонируйте репозитарий 
-- создайте и активируйте виртуальное окружение
+- создайте и активируйте виртуальное окружение:
+
 `python3 -m venv venv`
+
 `python3 venv/bin/activate`
+
 - установите все зависимости из файла requirements.txt командой: 
+
 `pip install -r requirements.txt`
+
 - выполните миграции
+
 `python manage.py migrate`
+
 - запустите веб сервер
+
 `python manage.py runserver`
 
 ## Регистрация 
@@ -38,6 +46,7 @@
 ## Примеры API запросов
 
 `GET /categories/`
+
 `Response sample`
 `[
   {
@@ -53,7 +62,9 @@
   }
 ]`
 
+
 `POST /categories/`
+
 `Request samples`
 `{
   "name": "string",
@@ -66,4 +77,4 @@
   "slug": "string"
 }`
 
-**Полное описание доступно по эндпоинту /redoc/**
+Полное описание доступно по эндпоинту **/redoc/** 
