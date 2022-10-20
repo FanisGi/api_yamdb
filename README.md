@@ -9,6 +9,9 @@
 ## Установка
 
 - Cклонируйте репозитарий 
+
+`git clone git@github.com:FanisGi/api_yamdb.git`
+
 - Cоздайте и активируйте виртуальное окружение:
 
 `python3 -m venv venv`
